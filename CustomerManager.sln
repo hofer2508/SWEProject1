@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDrivers", "TestDrivers\TestDrivers.csproj", "{1D73E2C0-07A3-4C6C-8A1F-DC6B4667A8C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customerDLL", "customerDLL\customerDLL.csproj", "{2D732558-7924-4829-99C1-4BDF6DD53207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager", "CustomerManager\CustomerManager.csproj", "{F9661435-0487-469D-8D0D-86209A5D1015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D73E2C0-07A3-4C6C-8A1F-DC6B4667A8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D73E2C0-07A3-4C6C-8A1F-DC6B4667A8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D73E2C0-07A3-4C6C-8A1F-DC6B4667A8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D73E2C0-07A3-4C6C-8A1F-DC6B4667A8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D732558-7924-4829-99C1-4BDF6DD53207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D732558-7924-4829-99C1-4BDF6DD53207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D732558-7924-4829-99C1-4BDF6DD53207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D732558-7924-4829-99C1-4BDF6DD53207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9661435-0487-469D-8D0D-86209A5D1015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9661435-0487-469D-8D0D-86209A5D1015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9661435-0487-469D-8D0D-86209A5D1015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9661435-0487-469D-8D0D-86209A5D1015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
