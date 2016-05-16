@@ -29,3 +29,6 @@ C:\Users\Hofer\Dropbox\Hirsch_Hofer\1.Semester\2.Semester\SWE\Projekt\CustomerMa
 C:\Users\Johannes\Dropbox\Hirsch_Hofer\2.Semester\SWE\Projekt\CustomerManager\CustomerManager\obj\Debug\CustomerManager.frmEdit.resources
 C:\Users\Johannes\Dropbox\Hirsch_Hofer\2.Semester\SWE\Projekt\CustomerManager\CustomerManager\obj\Debug\CustomerManager.frmLogin.resources
 C:\Users\Hofer\Dropbox\Hirsch_Hofer\1.Semester\2.Semester\SWE\Projekt\CustomerManager\CustomerManager\obj\Debug\CustomerManager.frmLogin.resources
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\bin\Debug\CustomerManager.exe.config
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Debug\CustomerManager.exe
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Debug\CustomerManager.pdb
