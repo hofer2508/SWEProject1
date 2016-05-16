@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using customerDLL;
+using System.Diagnostics;
 
 namespace CustomerManager
 {
@@ -17,6 +18,7 @@ namespace CustomerManager
         private int id;
         private Customer cNew = null;
         private List<Customer> customers;
+        private Stopwatch timer;
         #endregion
 
         #region Constructor
@@ -30,7 +32,8 @@ namespace CustomerManager
             InitializeComponent();
             this.id = id;
             this.customers = customers;
-            this.cNew = null;            
+            this.cNew = null;         
+            this.timer = new Stopwatch();
         }
         #endregion
 
@@ -44,6 +47,7 @@ namespace CustomerManager
         #region Events
         private void btnOK_Click(object sender, EventArgs e)
         {
+            timer.Start();
                 try
                 {
                     cNew = new Customer(this.id, this.tbxFirstName.Text, this.tbxLastName.Text, this.tbxEmail.Text);
@@ -52,6 +56,8 @@ namespace CustomerManager
                 {
                     throw new InvalidOperationException("Email is not unique!");
                 }
+                timer.Stop();
+                MessageBox.Show(timer.Elapsed.ToString());
                     DialogResult = DialogResult.OK;
                 }
                 catch(Exception ex)
