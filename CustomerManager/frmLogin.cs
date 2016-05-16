@@ -24,7 +24,7 @@ namespace CustomerManager
         #region Events
         private void btnOK_Click(object sender, EventArgs e)
         {
-            if (tbxPassword.Text == "testtest")
+            if (tbxPassword.Text == "test")
             {
                 DialogResult = DialogResult.OK;
             }
