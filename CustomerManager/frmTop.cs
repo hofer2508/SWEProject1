@@ -13,6 +13,7 @@ namespace CustomerManager
 {
     public partial class frmTop : Form
     {
+        //test
         #region MemberVariables
         CSV csv;
         BindingSource bind;
