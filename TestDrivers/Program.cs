@@ -18,12 +18,13 @@ namespace TestDrivers
             
             #region Neuen Kunden anlegen
             Customer cNew = null;
+            Error error;
 
             //while (cNew == null)
             //{
                 try
                 {
-                    cNew = new Customer(csv.Customers.Count, "TestTestTest", "Test", "asdf");
+                    cNew = new Customer(csv.Customers.Count, "TestTestTest", "Test", "asdf", out error);
                     cNew.Addamount(1000.0);
                     csv.Customers.Add(cNew);
                     csv.WriteCSV();

@@ -52,9 +52,10 @@ namespace CustomerManager
 
         private void btnOK_Click(object sender, EventArgs e)
         {
+            Error error;
             try
             {
-                cNew = new Customer(this.cOld.ID, this.cOld.FirstName, this.tbxLastName.Text, this.tbxEmail.Text, cOld.Balance, cOld.LastChange);
+                cNew = new Customer(this.cOld.ID, this.cOld.FirstName, this.tbxLastName.Text, this.tbxEmail.Text, cOld.Balance, cOld.LastChange, out error);
                 cNew.Addamount(Convert.ToDouble(this.nudAmount.Value));
 
                 if (!(Customer.IsEmailUnique(CNew, this.customers)))

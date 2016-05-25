@@ -48,9 +48,14 @@ namespace CustomerManager
         private void btnOK_Click(object sender, EventArgs e)
         {
             timer.Start();
-                try
-                {
-                    cNew = new Customer(this.id, this.tbxFirstName.Text, this.tbxLastName.Text, this.tbxEmail.Text);
+            Error error;
+            //try
+            //    {
+            do
+            {
+                cNew = new Customer(this.id, this.tbxFirstName.Text, this.tbxLastName.Text, this.tbxEmail.Text, out error);
+                MessageBox.Show(error.Code.ToString());
+            } while (error.Code != 0);
 
                 if (!(Customer.IsEmailUnique(CNew, this.customers)))
                 {
@@ -59,11 +64,11 @@ namespace CustomerManager
                 timer.Stop();
                 MessageBox.Show(timer.Elapsed.ToString());
                     DialogResult = DialogResult.OK;
-                }
-                catch(Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }                        
+                //}
+                //catch(Exception ex)
+                //{
+                //    MessageBox.Show(ex.Message);
+                //}                        
         }
         #endregion
     }

@@ -90,11 +90,12 @@ namespace customerDLL
             strReader = new StreamReader(this.path);
             string line;
             string[] parts;
+            Error error;
             while (strReader.Peek() >= 0)
             {
                 line = strReader.ReadLine();
                 parts = line.Split(';');
-                customers.Add(new Customer(Convert.ToInt32(DecryptString(parts[0])), DecryptString(parts[1]), DecryptString(parts[2]), DecryptString(parts[3]), Convert.ToDouble(DecryptString(parts[4])), Convert.ToDateTime(DecryptString(parts[5]))));   //??????
+                customers.Add(new Customer(Convert.ToInt32(DecryptString(parts[0])), DecryptString(parts[1]), DecryptString(parts[2]), DecryptString(parts[3]), Convert.ToDouble(DecryptString(parts[4])), Convert.ToDateTime(DecryptString(parts[5])), out error));   //??????
                 //Neuer Konstruktor bei dem New amount und Datum eingebbar??????????????????????????????
             }
             strReader.Close();

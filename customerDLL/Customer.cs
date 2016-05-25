@@ -28,24 +28,31 @@ namespace customerDLL
         public Customer(int id,
             string firstName,
             string lastName,
-            string email)
+            string email, out Error error)
         {
+            error = new Error();
+            error.Code = 0;
+            //error.Message = "No error occured.";
+            //error.Warning = false;
             if (IsNameValid(firstName))
             {
                 this.firstName = firstName;
             }
             else
             {
-                throw new InvalidOperationException("First Name is not Valid!");
+                //throw new InvalidOperationException("First Name is not Valid!");
+                error.Code = 1;
             }
 
             if (IsNameValid(lastName))
             {
                 this.lastName = lastName;
+
             }
             else
             {
-                throw new InvalidOperationException("Last Name is not Valid!");
+                //throw new InvalidOperationException("Last Name is not Valid!");
+                error.Code = 2;
             }
 
             if (IsEmailValid(email))
@@ -54,7 +61,8 @@ namespace customerDLL
             }
             else
             {
-                throw new InvalidOperationException("Email is not Valid!");
+                //throw new InvalidOperationException("Email is not Valid!");
+                error.Code = 3;
             }
 
             this.id = id;
@@ -76,15 +84,19 @@ namespace customerDLL
             string lastName,
             string email,
             double balance,
-            DateTime lastChange)
+            DateTime lastChange,
+            out Error error)
         {
-            if (IsNameValid(firstName))
+            error = new Error();
+
+            if (IsEmailValid(email))
             {
-                this.firstName = firstName;
+                this.email = email;
             }
             else
             {
-                throw new InvalidOperationException("First Name is not Valid!");
+                //throw new InvalidOperationException("Email is not Valid!");
+                error.Code = 3;
             }
 
             if (IsNameValid(lastName))
@@ -93,18 +105,19 @@ namespace customerDLL
             }
             else
             {
-                throw new InvalidOperationException("Last Name is not Valid!");
+                //throw new InvalidOperationException("Last Name is not Valid!");
+                error.Code = 2;
             }
-
-            if (IsEmailValid(email))
+            
+            if (IsNameValid(firstName))
             {
-                this.email = email;
+                this.firstName = firstName;
             }
             else
             {
-                throw new InvalidOperationException("Email is not Valid!");
+                //throw new InvalidOperationException("First Name is not Valid!");
+                error.Code = 1;
             }
-
             this.id = id;
             this.balance = balance;
             this.lastChange = lastChange;

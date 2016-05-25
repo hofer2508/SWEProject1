@@ -5,3 +5,4 @@ C:\Users\Johannes\Documents\GitHub\SWEProject1\TestDrivers\bin\Release\customerD
 C:\Users\Johannes\Documents\GitHub\SWEProject1\TestDrivers\bin\Release\customerDLL.pdb
 C:\Users\Johannes\Documents\GitHub\SWEProject1\TestDrivers\obj\Release\TestDrivers.exe
 C:\Users\Johannes\Documents\GitHub\SWEProject1\TestDrivers\obj\Release\TestDrivers.pdb
+C:\Users\Johannes\Documents\GitHub\SWEProject1\TestDrivers\obj\Release\TestDrivers.csprojResolveAssemblyReference.cache
