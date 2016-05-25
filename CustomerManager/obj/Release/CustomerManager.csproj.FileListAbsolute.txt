@@ -1,0 +1,15 @@
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\bin\Release\CustomerManager.exe.config
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\bin\Release\CustomerManager.exe
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\bin\Release\CustomerManager.pdb
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\bin\Release\customerDLL.dll
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\bin\Release\customerDLL.pdb
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.csprojResolveAssemblyReference.cache
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.frmAdd.resources
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.frmEdit.resources
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.frmLogin.resources
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.frmTop.resources
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.frmUser.resources
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.Properties.Resources.resources
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.csproj.GenerateResource.Cache
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.exe
+C:\Users\Johannes\Documents\GitHub\SWEProject1\CustomerManager\obj\Release\CustomerManager.pdb

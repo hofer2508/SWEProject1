@@ -1,0 +1,5 @@
+C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\bin\Release\customerDLL.dll
+C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\bin\Release\customerDLL.pdb
+C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\obj\Release\customerDLL.csprojResolveAssemblyReference.cache
+C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\obj\Release\customerDLL.dll
+C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\obj\Release\customerDLL.pdb
