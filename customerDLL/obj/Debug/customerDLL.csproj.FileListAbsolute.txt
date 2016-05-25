@@ -13,8 +13,16 @@ C:\Users\Johannes\Dropbox\Hirsch_Hofer\2.Semester\SWE\Projekt\CustomerManager\cu
 C:\Users\Johannes\Dropbox\Hirsch_Hofer\2.Semester\SWE\Projekt\CustomerManager\customerDLL\obj\Debug\customerDLL.csprojResolveAssemblyReference.cache
 C:\Users\Johannes\Dropbox\Hirsch_Hofer\2.Semester\SWE\Projekt\CustomerManager\customerDLL\obj\Debug\customerDLL.dll
 C:\Users\Johannes\Dropbox\Hirsch_Hofer\2.Semester\SWE\Projekt\CustomerManager\customerDLL\obj\Debug\customerDLL.pdb
+<<<<<<< HEAD
 C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\bin\Debug\customerDLL.dll
 C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\bin\Debug\customerDLL.pdb
 C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\obj\Debug\customerDLL.csprojResolveAssemblyReference.cache
 C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\obj\Debug\customerDLL.dll
 C:\Users\Johannes\Documents\GitHub\SWEProject1\customerDLL\obj\Debug\customerDLL.pdb
+=======
+C:\Users\Hofer\Documents\GitHub\SWEProject1\customerDLL\bin\Debug\customerDLL.dll
+C:\Users\Hofer\Documents\GitHub\SWEProject1\customerDLL\bin\Debug\customerDLL.pdb
+C:\Users\Hofer\Documents\GitHub\SWEProject1\customerDLL\obj\Debug\customerDLL.csprojResolveAssemblyReference.cache
+C:\Users\Hofer\Documents\GitHub\SWEProject1\customerDLL\obj\Debug\customerDLL.dll
+C:\Users\Hofer\Documents\GitHub\SWEProject1\customerDLL\obj\Debug\customerDLL.pdb
+>>>>>>> refs/remotes/origin/master
